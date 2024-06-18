@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex: 1;
+}
+
+.active{
+  background-color: blue;
+  color: white
+}
+
+.won{
+  background-color: green;
+  color: white
+}
+
+.error{
+  background-color: red;
+  color: white
+}
+
+.item{
+  flex: 20%;
+}
